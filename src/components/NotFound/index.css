@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.not-found-container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.not-found-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+@media screen and (max-width: 768px){
+    .not-found-content-container{
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+}
+.not-found-responsive-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 90%;
+    max-width: 1110px;
+}
+@media screen and (max-width: 768px){
+    .not-found-responsive-container{
+        margin-top: 40px;
+        max-width: 460px;
+    }
+}
+.image{
+    width: 330px;
+}
+@media screen and (max-width: 768px){
+    .image{
+        width: 470px;
+    }
+}
+.heading{
+    font-family: "Roboto";
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+    margin-top: 32px;
+}
+@media screen and (min-width: 768px){
+    .heading{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 1.2;
+    }
+}
+.description{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 15px;
+    color: #616e7c;
+}
+@media screen and (max-width: 768px){
+    .description{
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 240px;
+        margin-top: 5px;
+    }
